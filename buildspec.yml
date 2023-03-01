@@ -1,0 +1,38 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+
+  pre_build:
+    commands:
+      
+      - echo "###############################################################"
+      - echo "Instaling Selenium Test Run Cases Packages on Linux Server"
+      - echo "###############################################################"
+      
+      - echo Installing Google-chrome and Chrome Driver on `date`
+      - yum update -y && yum install wget && yum install -y testng && yum install -y tree
+      - curl https://intoli.com/install-google-chrome.sh | bash
+      - mv /usr/bin/google-chrome-stable /usr/bin/google-chrome
+      - wget https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_linux64.zip
+      - unzip chromedriver_linux64.zip
+      - mv chromedriver /usr/bin/chromedriver
+      - chown root:root /usr/bin/chromedriver
+      - chmod +x /usr/bin/chromedriver
+      - yum install -y google-chrome-stable
+      - wget https://selenium-release.storage.googleapis.com/3.13/selenium-server-standalone-3.13.0.jar
+      - google-chrome --version
+      - chromedriver --version
+      - mvn --version
+    
+  build:
+    commands:
+      
+      - echo "##############"
+      - echo "Unit Testing"
+      - echo "##############"
+      
+      - mvn clean verify -f selenium-pom.xml
+
