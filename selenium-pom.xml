@@ -158,36 +158,6 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-	<!-- plugin>
-                <groupId>com.lazerycode.jmeter</groupId>
-                <artifactId>jmeter-maven-plugin</artifactId>
-                <version>3.6.1</version>
-                <executions>
-                    <!-- Run JMeter tests -->
-                    <execution>
-                        <id>configuration</id>
-                        <goals>
-                            <goal>configure</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>jmeter-tests</id>
-                        <goals>
-                            <goal>jmeter</goal>
-                        </goals>
-                    </execution>
-                    <!-- Fail build on errors in test -->
-                    <execution>
-                        <id>jmeter-check-results</id>
-                        <goals>
-                            <goal>results</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <testFilesDirectory>src/</testFilesDirectory>
-                </configuration>
-	</plugin -->
 
 		</plugins>
 
