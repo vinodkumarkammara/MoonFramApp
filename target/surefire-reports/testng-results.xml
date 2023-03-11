@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" ignored="0" total="9" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="vinod-Selenium-Test" duration-ms="11653" started-at="2023-03-01T18:14:10Z" finished-at="2023-03-01T18:14:21Z">
+  <suite name="vinod-Selenium-Test" duration-ms="15520" started-at="2023-03-11T05:01:18Z" finished-at="2023-03-11T05:01:33Z">
     <groups>
     </groups>
-    <test name="Login page Test_chrome_64" duration-ms="11636" started-at="2023-03-01T18:14:10Z" finished-at="2023-03-01T18:14:21Z">
+    <test name="Login page Test_chrome_64" duration-ms="15253" started-at="2023-03-11T05:01:18Z" finished-at="2023-03-11T05:01:33Z">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@24b52d3e]" name="setUp" is-config="true" duration-ms="6761" started-at="2023-03-01T18:14:10Z" finished-at="2023-03-01T18:14:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@a23a01d]" name="setUp" is-config="true" duration-ms="9293" started-at="2023-03-11T05:01:18Z" finished-at="2023-03-11T05:01:27Z">
           <params>
             <param index="0">
               <value>
@@ -23,21 +23,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@24b52d3e]" name="LoginPageTitleTest" duration-ms="30" started-at="2023-03-01T18:14:16Z" finished-at="2023-03-01T18:14:16Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@a23a01d]" name="LoginPageTitleTest" duration-ms="264" started-at="2023-03-11T05:01:27Z" finished-at="2023-03-11T05:01:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@24b52d3e]" name="LoginTest" duration-ms="3374" started-at="2023-03-01T18:14:16Z" finished-at="2023-03-01T18:14:20Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@a23a01d]" name="LoginTest" duration-ms="3645" started-at="2023-03-11T05:01:28Z" finished-at="2023-03-11T05:01:31Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Login']"}
   (Session info: chrome=110.0.5481.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ARPGL006737', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+System info: host: 'ARPGL006737', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4b0a05af975f78ade1b2ddd528da6c6f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5de1057927873aec49f5441a48de74c
 *** Element info: {Using=css selector, value=input[value='Login']}]]>
             </message>
             <full-stacktrace>
@@ -45,10 +45,10 @@ Session ID: 4b0a05af975f78ade1b2ddd528da6c6f
   (Session info: chrome=110.0.5481.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ARPGL006737', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+System info: host: 'ARPGL006737', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4b0a05af975f78ade1b2ddd528da6c6f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5de1057927873aec49f5441a48de74c
 *** Element info: {Using=css selector, value=input[value='Login']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -94,19 +94,19 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="isForgotPwdLinkExist()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@24b52d3e]" name="isForgotPwdLinkExist" duration-ms="228" started-at="2023-03-01T18:14:20Z" finished-at="2023-03-01T18:14:20Z">
+        <test-method status="PASS" signature="isForgotPwdLinkExist()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@a23a01d]" name="isForgotPwdLinkExist" duration-ms="50" started-at="2023-03-11T05:01:32Z" finished-at="2023-03-11T05:01:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isForgotPwdLinkExist -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@24b52d3e]" name="tearDown" is-config="true" duration-ms="840" started-at="2023-03-01T18:14:20Z" finished-at="2023-03-01T18:14:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@a23a01d]" name="tearDown" is-config="true" duration-ms="856" started-at="2023-03-11T05:01:32Z" finished-at="2023-03-11T05:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
     </test> <!-- Login page Test_chrome_64 -->
-    <test name="Login page Test_chrome_85" duration-ms="11653" started-at="2023-03-01T18:14:10Z" finished-at="2023-03-01T18:14:21Z">
+    <test name="Login page Test_chrome_85" duration-ms="15519" started-at="2023-03-11T05:01:18Z" finished-at="2023-03-11T05:01:33Z">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@619bd14c]" name="setUp" is-config="true" duration-ms="6062" started-at="2023-03-01T18:14:10Z" finished-at="2023-03-01T18:14:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@1e53135d]" name="setUp" is-config="true" duration-ms="9293" started-at="2023-03-11T05:01:18Z" finished-at="2023-03-11T05:01:27Z">
           <params>
             <param index="0">
               <value>
@@ -122,21 +122,21 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@619bd14c]" name="LoginPageTitleTest" duration-ms="240" started-at="2023-03-01T18:14:16Z" finished-at="2023-03-01T18:14:16Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@1e53135d]" name="LoginPageTitleTest" duration-ms="265" started-at="2023-03-11T05:01:27Z" finished-at="2023-03-11T05:01:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@619bd14c]" name="LoginTest" duration-ms="3393" started-at="2023-03-01T18:14:16Z" finished-at="2023-03-01T18:14:20Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@1e53135d]" name="LoginTest" duration-ms="3559" started-at="2023-03-11T05:01:28Z" finished-at="2023-03-11T05:01:31Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Login']"}
   (Session info: chrome=110.0.5481.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ARPGL006737', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+System info: host: 'ARPGL006737', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0516dc45b2264290bf0fb83c65732824
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 55392a4512951d53215336d697d558cb
 *** Element info: {Using=css selector, value=input[value='Login']}]]>
             </message>
             <full-stacktrace>
@@ -144,10 +144,10 @@ Session ID: 0516dc45b2264290bf0fb83c65732824
   (Session info: chrome=110.0.5481.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ARPGL006737', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+System info: host: 'ARPGL006737', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0516dc45b2264290bf0fb83c65732824
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 55392a4512951d53215336d697d558cb
 *** Element info: {Using=css selector, value=input[value='Login']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -193,19 +193,19 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="isForgotPwdLinkExist()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@619bd14c]" name="isForgotPwdLinkExist" duration-ms="446" started-at="2023-03-01T18:14:20Z" finished-at="2023-03-01T18:14:20Z">
+        <test-method status="PASS" signature="isForgotPwdLinkExist()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@1e53135d]" name="isForgotPwdLinkExist" duration-ms="546" started-at="2023-03-11T05:01:32Z" finished-at="2023-03-11T05:01:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isForgotPwdLinkExist -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@619bd14c]" name="tearDown" is-config="true" duration-ms="856" started-at="2023-03-01T18:14:20Z" finished-at="2023-03-01T18:14:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@1e53135d]" name="tearDown" is-config="true" duration-ms="1140" started-at="2023-03-11T05:01:32Z" finished-at="2023-03-11T05:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
     </test> <!-- Login page Test_chrome_85 -->
-    <test name="Login page Test_FF_80" duration-ms="11637" started-at="2023-03-01T18:14:10Z" finished-at="2023-03-01T18:14:21Z">
+    <test name="Login page Test_FF_80" duration-ms="15432" started-at="2023-03-11T05:01:18Z" finished-at="2023-03-11T05:01:33Z">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@40e4ea87]" name="setUp" is-config="true" duration-ms="6061" started-at="2023-03-01T18:14:10Z" finished-at="2023-03-01T18:14:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@255990cc]" name="setUp" is-config="true" duration-ms="9293" started-at="2023-03-11T05:01:18Z" finished-at="2023-03-11T05:01:27Z">
           <params>
             <param index="0">
               <value>
@@ -221,21 +221,21 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@40e4ea87]" name="LoginPageTitleTest" duration-ms="240" started-at="2023-03-01T18:14:16Z" finished-at="2023-03-01T18:14:16Z">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@255990cc]" name="LoginPageTitleTest" duration-ms="265" started-at="2023-03-11T05:01:27Z" finished-at="2023-03-11T05:01:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@40e4ea87]" name="LoginTest" duration-ms="3499" started-at="2023-03-01T18:14:16Z" finished-at="2023-03-01T18:14:20Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@255990cc]" name="LoginTest" duration-ms="3673" started-at="2023-03-11T05:01:28Z" finished-at="2023-03-11T05:01:31Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Login']"}
   (Session info: chrome=110.0.5481.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ARPGL006737', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+System info: host: 'ARPGL006737', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e638decf3e466b59eadf46c090d074a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56d211b0ace9b27a8ea47eb1a4a29fe6
 *** Element info: {Using=css selector, value=input[value='Login']}]]>
             </message>
             <full-stacktrace>
@@ -243,10 +243,10 @@ Session ID: 8e638decf3e466b59eadf46c090d074a
   (Session info: chrome=110.0.5481.100)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ARPGL006737', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+System info: host: 'ARPGL006737', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e638decf3e466b59eadf46c090d074a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\VINOD_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56d211b0ace9b27a8ea47eb1a4a29fe6
 *** Element info: {Using=css selector, value=input[value='Login']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -292,11 +292,11 @@ at java.lang.Thread.run(Thread.java:745)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="isForgotPwdLinkExist()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@40e4ea87]" name="isForgotPwdLinkExist" duration-ms="44" started-at="2023-03-01T18:14:20Z" finished-at="2023-03-01T18:14:20Z">
+        <test-method status="PASS" signature="isForgotPwdLinkExist()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@255990cc]" name="isForgotPwdLinkExist" duration-ms="296" started-at="2023-03-11T05:01:32Z" finished-at="2023-03-11T05:01:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isForgotPwdLinkExist -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@40e4ea87]" name="tearDown" is-config="true" duration-ms="818" started-at="2023-03-01T18:14:20Z" finished-at="2023-03-01T18:14:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@255990cc]" name="tearDown" is-config="true" duration-ms="1052" started-at="2023-03-11T05:01:32Z" finished-at="2023-03-11T05:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
