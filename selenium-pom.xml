@@ -18,7 +18,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<aspectj.version>1.9.5</aspectj.version>
-		<jmeterThreads>1</jmeterThreads>
+		<!-- jmeterThreads>1</jmeterThreads -->
 	</properties>
 
 	<dependencies>
@@ -158,7 +158,7 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-<plugin>
+	<!-- plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
                 <version>3.6.1</version>
@@ -187,7 +187,7 @@
                 <configuration>
                     <testFilesDirectory>src/</testFilesDirectory>
                 </configuration>
-            </plugin>
+	</plugin -->
 
 		</plugins>
 
