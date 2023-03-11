@@ -171,7 +171,7 @@
             <version>3.1.1</version>
         </plugin>
 
-	    <!-- plugin>
+	    <plugin>
             	<groupId>org.owasp</groupId>
             	<artifactId>dependency-check-maven</artifactId>
             	<version>8.0.1</version>
@@ -182,7 +182,7 @@
                     </reports>
                 </reportSet>
             </reportSets>
-        </plugin -->
+        </plugin>
 
 </plugins>
 </reporting>
@@ -194,7 +194,7 @@
 <plugins>
 
 <!-- OWASP Dependency Check -->
-<!-- plugin>
+<plugin>
             <groupId>org.owasp</groupId>
             <artifactId>dependency-check-maven</artifactId>
             <version>8.0.1</version>
@@ -211,7 +211,7 @@
                     </goals>
                 </execution>
             </executions>
-</plugin -->
+</plugin>
 
 <plugin>
 	<!-- Configures the compiler. -->
