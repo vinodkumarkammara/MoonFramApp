@@ -263,6 +263,27 @@
 	</dependency>
 </dependencies>
 </plugin>
+	
+	<plugin>
+	<groupId>org.codehaus.mojo</groupId>
+	<artifactId>cobertura-maven-plugin</artifactId>
+	<version>2.7</version>
+	<configuration>
+		<formats>
+			<format>xml</format>
+			<format>html</format>
+		</formats>
+		<check/>
+	</configuration>
+	<executions>
+		<execution>
+			<phase>package</phase>
+			<goals>
+				<goal>cobertura</goal>
+			</goals>
+		</execution>
+	</executions>
+	</plugin>	
 
 <plugin>
         <!-- Integration tests are run by failsafe. -->
@@ -281,7 +302,7 @@
         </executions>
 </plugin>
 	
-<plugin>
+<!-- <plugin>
      <groupId>org.codehaus.mojo</groupId>
      <artifactId>cobertura-maven-plugin</artifactId>
      <version>2.7</version>
@@ -300,8 +321,7 @@
               </goals>
           </execution>
         </executions>
-</plugin>	
-	
+</plugin> -->
 
 <plugin>
         <!-- Code coverage plugin. -->
